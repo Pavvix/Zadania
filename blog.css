@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.obrazek{
+    margin: auto;
+    height: 100px;
+    width: 95%;
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+hr{
+    margin: 10px;
+}
+
+.lewo{
+    width: 60%;
+    margin: 10px;
+    float: left;
+}
+.lewo p{
+    font-size: 20px;
+}
+h2{
+    font-size: 50px;
+}
+.prawo{
+    width: 30%;
+    float: right;
+    margin: 10px;
+}
+ol{
+    list-style: none;
+}
+ol li{
+    margin: 10px;
+    display: inline;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: lightgray;
+    width: 100%;
+    height: 100px;
+}
+footer p{
+    color: gray;
+    font-size: 20px;
+    line-height: 100px;
+    margin-left: 20px;
+}
